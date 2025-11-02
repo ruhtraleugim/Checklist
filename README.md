@@ -92,12 +92,12 @@ if (!existing.getUser().getUserId().equals(user.getUserId())) {
 ### 📝 Checklists
 
 | Método | Endpoint             | Descrição               | Acesso           |
-|--------|----------------------|-------------------------|------------------||
-GET	| /api/checklist/all |Lista todos os checklists|ADMIN|
-GET	|/api/checklist/myLists|	Lista checklists do usuário logado	|Próprio|
-GET	|/api/checklist/myLists/{id}|	Busca checklist por ID|Próprio|
-POST|	/api/checklist/myLists|	Cria um novo checklist	|Próprio
-PATCH|	/api/checklist/myLists/{id}|	Atualiza checklist existente|	Próprio|
+|--------|----------------------|-------------------------|------------------|
+|GET	 | /api/checklist/all   | Lista todos os checklists    | ADMIN    |
+|GET	|/api/checklist/myLists|	Lista checklists do usuário logado	|Próprio|
+|GET	|/api/checklist/myLists/{id}|	Busca checklist por ID|Próprio|
+|POST|	/api/checklist/myLists|	Cria um novo checklist	|Próprio |
+|PATCH|	/api/checklist/myLists/{id}|	Atualiza checklist existente|	Próprio|
 |DELETE	|/api/checklist/myLists/{id}|	Remove checklist|	Próprio|
 
 

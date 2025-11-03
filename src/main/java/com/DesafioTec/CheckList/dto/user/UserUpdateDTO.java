@@ -1,4 +1,4 @@
-package com.DesafioTec.CheckList.dto;
+package com.DesafioTec.CheckList.dto.user;
 
 public class UserUpdateDTO {
 

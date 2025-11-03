@@ -1,4 +1,4 @@
-package com.DesafioTec.CheckList.service.user;
+package com.DesafioTec.CheckList.service.auth;
 
 import com.DesafioTec.CheckList.model.user.UserModel;
 import com.DesafioTec.CheckList.repository.UserRepo;
@@ -16,6 +16,7 @@ public class AuthService implements UserDetailsService {
 
     @Autowired
     private UserRepo repo;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserModel user = repo.findByEmail(username).orElseThrow();

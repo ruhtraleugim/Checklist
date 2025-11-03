@@ -1,4 +1,4 @@
-package com.DesafioTec.CheckList.dto;
+package com.DesafioTec.CheckList.dto.user;
 
 import lombok.Data;
 

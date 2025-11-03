@@ -1,8 +1,8 @@
 package com.DesafioTec.CheckList.controller;
 
-import com.DesafioTec.CheckList.dto.UserRequestDTO;
-import com.DesafioTec.CheckList.dto.UserResponseDTO;
-import com.DesafioTec.CheckList.dto.UserUpdateDTO;
+import com.DesafioTec.CheckList.dto.user.UserRequestDTO;
+import com.DesafioTec.CheckList.dto.user.UserResponseDTO;
+import com.DesafioTec.CheckList.dto.user.UserUpdateDTO;
 import com.DesafioTec.CheckList.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

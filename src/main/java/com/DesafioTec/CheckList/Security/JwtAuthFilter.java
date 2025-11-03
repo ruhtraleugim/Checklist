@@ -1,6 +1,6 @@
 package com.DesafioTec.CheckList.Security;
 
-import com.DesafioTec.CheckList.service.user.AuthService;
+import com.DesafioTec.CheckList.service.auth.AuthService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,8 +1,8 @@
 package com.DesafioTec.CheckList.service.user;
 
-import com.DesafioTec.CheckList.dto.UserRequestDTO;
-import com.DesafioTec.CheckList.dto.UserResponseDTO;
-import com.DesafioTec.CheckList.dto.UserUpdateDTO;
+import com.DesafioTec.CheckList.dto.user.UserRequestDTO;
+import com.DesafioTec.CheckList.dto.user.UserResponseDTO;
+import com.DesafioTec.CheckList.dto.user.UserUpdateDTO;
 import com.DesafioTec.CheckList.model.user.UserModel;
 import com.DesafioTec.CheckList.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;

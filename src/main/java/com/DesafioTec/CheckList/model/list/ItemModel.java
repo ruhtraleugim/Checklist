@@ -16,6 +16,7 @@ public class ItemModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer itemId;
 
+    private String email;
     private String nameItem;
     private String statusItem;
     private String colorItem;
